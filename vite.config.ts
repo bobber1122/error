@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/invalid/'
+    base: '/error/'
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
